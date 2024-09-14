@@ -1,0 +1,64 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Runtime.Remoting.Services;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp5
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Enter number: ");
+            int x = int.Parse(Console.ReadLine());
+            Console.WriteLine(x + " " + (x + 1) + " " + (x + 2));
+
+            Console.WriteLine("Enter first number: ");
+            int x = int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter second number: ");
+            int y = int.Parse(Console.ReadLine());
+            Console.WriteLine(x * y);
+
+            int difference, sum;
+            Console.WriteLine("boys : ");
+            int boys = int.Parse(Console.ReadLine());
+            Console.WriteLine("Girls : ");
+            int girls = int.Parse(Console.ReadLine());
+            if (boys > girls)
+            {
+               difference = boys - girls;
+               Console.WriteLine("The diffrence is " + difference + "in favor of the boys.");
+            }
+            else if(girls > boys)
+            {
+                difference = girls- boys;
+                Console.WriteLine("The diffrence is " + difference + " in favor of the girls.");
+            }
+            else
+            {
+                Console.WriteLine("there is the same amount of boys and girls");
+            }
+            sum = boys + girls;
+            Console.WriteLine("The sum is: " + sum);
+
+            Console.WriteLine("num: ");
+            int num = int.Parse(Console.ReadLine());
+            int num1 = (num + 2);
+            Console.WriteLine(num1);
+
+            Console.WriteLine("Length : ");
+            int Length = int.Parse(Console.ReadLine());
+            Console.WriteLine("Width : ");
+            int Width = int.Parse(Console.ReadLine());
+            int perimeter = ((Length + Width) * 2);
+            int area = (Length * Width);
+            Console.WriteLine("perimeter: " + perimeter);
+            Console.WriteLine("area: " + area);
+
+
+
+        }
+    }
+}
