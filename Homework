@@ -79,3 +79,14 @@ int num_of_tickets;
         }
     }
 }
+
+Console.Write("enter amount of training days in a month: ");
+            int daysOfTraining = Convert.ToInt32(Console.ReadLine());
+
+            Console.Write("enter pools legnth in meters: ");
+            double poolLength = Convert.ToDouble(Console.ReadLine());
+
+            const int lengthsPerDay = 10;
+            double totalMeters = daysOfTraining * lengthsPerDay * poolLength;
+
+            Console.WriteLine($"vered swam {totalMeters} meters this month.");
