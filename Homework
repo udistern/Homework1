@@ -62,3 +62,20 @@ namespace ConsoleApp5
         }
     }
 }
+
+
+
+int num_of_tickets;
+            Console.WriteLine("There are 120 seats in the movie theater");
+            Console.WriteLine("enter number of tickets: ");
+            num_of_tickets = int.Parse(Console.ReadLine());
+            Console.WriteLine("price of every ticket: ");
+          Double Price = double.Parse(Console.ReadLine());
+            Console.WriteLine("total money earned: ");
+            Console.WriteLine(Price*num_of_tickets);
+            Console.WriteLine("total loss: ");
+            Console.WriteLine((120 - num_of_tickets)* Price);
+
+        }
+    }
+}
