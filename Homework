@@ -103,6 +103,6 @@ Console.WriteLine("enter first number : ");
 
 
 
-    }
-
-}
+    Console.WriteLine("Enter 3 digits number.");
+            int num1 = int.Parse(Console.ReadLine());
+            Console.WriteLine((num1 / 100) + " " + (num1 / 10 % 10) + " " + (num1 % 10));
