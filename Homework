@@ -89,9 +89,13 @@ Console.Write("enter amount of training days in a month: ");
             const int lengthsPerDay = 10;
             double totalMeters = daysOfTraining * lengthsPerDay * poolLength;
 
-            Console.WriteLine($"vered swam {totalMeters} meters this month.");
+         Console.WriteLine($"vered swam {totalMeters} meters this month.");
 
-
+ int item;
+            Console.WriteLine("please instert items price: ");
+            item = int.Parse(Console.ReadLine());
+            Console.WriteLine("Total price:" );
+            Console.WriteLine(  item * 0.18 + item  );
 
 
 
