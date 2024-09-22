@@ -99,6 +99,14 @@ Console.Write("enter amount of training days in a month: ");
 
 
 
+
+
+
+
+
+
+
+
 Console.WriteLine("enter first number : ");
            int num1 = int.Parse(Console.ReadLine());
             Console.WriteLine ((num1 / 10 + num1 %10 ));
@@ -121,3 +129,14 @@ Console.WriteLine("enter first number : ");
             Console.WriteLine("sqaure="+m);
             Console.WriteLine("perimter=" +b );
 
+int  x1, x2, y1, y2;
+            Console.WriteLine("enter x of first point: ");
+            x1 = int.Parse(Console.ReadLine());
+            Console.WriteLine("enter y of first point: ");
+            y1 = int.Parse(Console.ReadLine());
+            Console.WriteLine("enter x of second point: ");
+             x2 = int.Parse(Console.ReadLine());
+            Console.WriteLine("enter y of second point: ");
+            y2 = int.Parse(Console.ReadLine());
+            double distance = Math.Sqrt(Math.Pow(x2 - x1, 2) + Math.Pow(y2 - y1, 2));
+            Console.WriteLine("Distance: " + distance);
