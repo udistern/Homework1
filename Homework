@@ -110,3 +110,14 @@ Console.WriteLine("enter first number : ");
     Console.WriteLine("Enter 3 digits number.");
             int num1 = int.Parse(Console.ReadLine());
             Console.WriteLine((num1 / 100) + " " + (num1 / 10 % 10) + " " + (num1 % 10));
+
+
+ Console.WriteLine("enter r:  ");
+            int r = int.Parse(Console.ReadLine());
+            double m =Math.Pow(r,2 );
+            double z = Math.PI * m;
+            double b = ((2 * 3.14 * r));
+            Console.WriteLine(z);
+            Console.WriteLine("sqaure="+m);
+            Console.WriteLine("perimter=" +b );
+
