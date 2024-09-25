@@ -99,6 +99,57 @@ Console.Write("enter amount of training days in a month: ");
 
 
 
+double sheckels, dollar, dollarworth;
+            Console.WriteLine("enter amount of money: ");
+            dollar = int.Parse(Console.ReadLine());
+             dollarworth = dollar * 3.76;
+            sheckels = dollarworth;
+            Console.WriteLine("you got:" + sheckels + "sheckels");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ int paycheck, amount, space, tax;
+            Console.WriteLine("enter spies value : ");
+            amount = int.Parse(Console.ReadLine());
+            paycheck = 10 * amount;
+            tax = paycheck / 4;
+            space = paycheck - tax;
+            Console.WriteLine("the clean paycheck that the spy got is: " + space);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -118,6 +169,29 @@ Console.WriteLine("enter first number : ");
     Console.WriteLine("Enter 3 digits number.");
             int num1 = int.Parse(Console.ReadLine());
             Console.WriteLine((num1 / 100) + " " + (num1 / 10 % 10) + " " + (num1 % 10));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
  Console.WriteLine("enter r:  ");
@@ -140,3 +214,22 @@ int  x1, x2, y1, y2;
             y2 = int.Parse(Console.ReadLine());
             double distance = Math.Sqrt(Math.Pow(x2 - x1, 2) + Math.Pow(y2 - y1, 2));
             Console.WriteLine("Distance: " + distance);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
