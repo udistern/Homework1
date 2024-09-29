@@ -305,6 +305,31 @@ Console.WriteLine("enter first number");
 
 
 
+Console.WriteLine("how many boys are in your class");
+            int boys = int.Parse(Console.ReadLine());
+            Console.WriteLine("how many girls are in your class");
+            int girls = int.Parse(Console.ReadLine());
+
+            if (boys == girls)
+                Console.WriteLine("diddy and drake will like");
+            if (girls > boys)
+                Console.WriteLine("drake like if there under 10 ");
+            if (boys > girls)
+                Console.WriteLine("diddy like you");
+
+
+
+Console.WriteLine("enter number");
+            int n1 = int.Parse(Console.ReadLine());
+                if (n1 > 1 & n1 < 50 || n1 > 90 & n1 < 99)
+                    Console.WriteLine("BOOM!");
+            else
+                    Console.WriteLine("oops");
+
+
+
+
+
 
 
 
