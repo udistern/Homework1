@@ -328,6 +328,21 @@ Console.WriteLine("enter number");
 
 
 
+Console.WriteLine("enter first number");
+            int n1 = int.Parse(Console.ReadLine());
+            Console.WriteLine("enter second number");
+            int n2 = int.Parse(Console.ReadLine());
+            Console.WriteLine("enter third number");
+            int n3 = int.Parse(Console.ReadLine());
+
+            int avr = (n1+n2+n3) / 3;
+            
+            if (avr > 100)
+                Console.WriteLine(n1 + n3);
+            else
+                Console.WriteLine(n2 / 2);
+
+
 
 
 
