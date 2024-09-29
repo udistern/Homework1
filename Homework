@@ -107,26 +107,6 @@ double sheckels, dollar, dollarworth;
             Console.WriteLine("you got:" + sheckels + "sheckels");
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
  int paycheck, amount, space, tax;
             Console.WriteLine("enter spies value : ");
             amount = int.Parse(Console.ReadLine());
@@ -136,7 +116,60 @@ double sheckels, dollar, dollarworth;
             Console.WriteLine("the clean paycheck that the spy got is: " + space);
 
 
+int carprice, sale, priceamount;
+ Console.WriteLine("enter ccar price: ");
+ carprice = int.Parse(Console.ReadLine());
+ sale = (carprice / 10) * 9;
+ priceamount = sale / 36;
+ Console.WriteLine("after sale of 10% the price is: " + sale );
+ Console.WriteLine("each price out of the 36 is: " + priceamount);
 
+int way1, way2,speed1, speed2, time;
+ Console.WriteLine("enter the way from Kfar saba to Raanaa: ");
+ way1 = int.Parse(Console.ReadLine());
+ Console.WriteLine("enter the way from Raanaa to Herzelia");
+ way2 = int.Parse(Console.ReadLine());
+ speed1 = (way1 * 1000) / 80;
+ speed2 = (way2 * 1000) / 60;
+ time = speed1 + speed2;
+ Console.WriteLine("time from Kfar saba to Herzelia is: " + time + " minutes");
+
+ int x, y, x1, y1;
+ Console.WriteLine("enter number");
+ x = int.Parse(Console.ReadLine());
+ Console.WriteLine("enter second number");
+ y = int.Parse(Console.ReadLine());
+ y1 = y;
+ x1 = x;
+ Console.WriteLine("y = " + x1 );
+ Console.WriteLine("x = " + y1);
+ 
+int num, n1, n2, n3, average;
+Console.WriteLine("enter first number: ");
+n1 = int.Parse(Console.ReadLine());
+Console.WriteLine("enter second number: ");
+n2 = int.Parse(Console.ReadLine());
+Console.WriteLine("enter third number: ");
+n3 = int.Parse(Console.ReadLine());
+average = (n1 + n2 + n3) / 3;
+Console.WriteLine("the three numbers average is: " + average);
+
+double price, mas;
+ Console.WriteLine("enter the price of the product: ");
+ price = int.Parse(Console.ReadLine());
+ mas = price * 1.18;
+ Console.WriteLine("price with mas is: " + mas);
+
+double bigboy, littleboy, girl1, girl2;
+Console.WriteLine("enter the biggeest boy's age: ");
+bigboy = int.Parse(Console.ReadLine());
+littleboy = bigboy - 10;
+girl1 = littleboy + 0.00000032;
+girl2 = girl1 + 3;
+Console.WriteLine("the biggest boy age is: " + bigboy);
+Console.WriteLine("the little boy age is: " + littleboy);
+Console.WriteLine("the biggest girl age is: " + girl1);
+Console.WriteLine("the little girl age is: " + girl2);
 
 
 
