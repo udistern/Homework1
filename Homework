@@ -11,6 +11,7 @@ namespace ConsoleApp5
     {
         static void Main(string[] args)
         {
+קלט פלט_____________________________________________________
             Console.WriteLine("Enter number: ");
             int x = int.Parse(Console.ReadLine());
             Console.WriteLine(x + " " + (x + 1) + " " + (x + 2));
@@ -172,6 +173,72 @@ Console.WriteLine("the biggest girl age is: " + girl1);
 Console.WriteLine("the little girl age is: " + girl2);
 
 
+
+
+
+IF____________________________________________
+Console.WriteLine("enter first grade");
+int n1 = int.Parse((Console.ReadLine()));
+Console.WriteLine("enter second grade");
+int n2 = int.Parse((Console.ReadLine()));
+if(n2>n1 + 5)
+Console.WriteLine("the sdutend have upgrade");
+else
+Console.WriteLine("the studend didn't upgrate");
+
+
+
+
+Console.WriteLine("enter number");
+int n1 = int.Parse((Console.ReadLine()));
+if(n1 %7==0)
+Console.WriteLine("boom");
+else
+Console.WriteLine("no");
+
+
+
+Console.WriteLine("enter number");
+int n1 = int.Parse((Console.ReadLine()));
+Console.WriteLine("enter symbole");
+char tav = char.Parse((Console.ReadLine()));
+Console.WriteLine("enter second number");
+int n2 = int.Parse((Console.ReadLine()));
+if (tav=='+')
+Console.WriteLine(n1+n2);
+if (tav == '-')
+Console.WriteLine(n1 - n2);
+if (tav == '/')
+Console.WriteLine(n1 / n2);
+if (tav == '*')
+Console.WriteLine(n1*n2);
+
+
+
+
+Console.WriteLine("how many people are entering?");
+            int n1 = int.Parse((Console.ReadLine()));
+            int price = 30;
+            int boats = n1 / 8;
+            int num3 = boats + 1;
+            if (n1 % 8 ==0)
+                Console.WriteLine("rent  " + boats + "boats");
+            else
+                Console.WriteLine("rent  " + num3 + " boats");
+
+
+
+
+Console.WriteLine("enter number between 1-99");
+int n1 = int.Parse((Console.ReadLine()));
+if (n1 > 99)
+Console.WriteLine("wrong number");
+else if (n1 < 1)
+Console.WriteLine("wrong number");
+else if (n1 / 7 == 0)
+Console.WriteLine("boom");
+else if (n1 % 7 = 7)
+Console.WriteLine("dont divide by 7");
 
 
 
