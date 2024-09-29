@@ -279,6 +279,27 @@ Console.WriteLine("enter first number : ");
 
 
 
+תרגול תנאי_______________________________________________________
+Console.WriteLine("enter first number");
+            int n1 = int.Parse(Console.ReadLine());
+            Console.WriteLine("enter second number");
+            int n2 = int.Parse(Console.ReadLine());
+            Console.WriteLine("enter third number");
+            int n3 = int.Parse(Console.ReadLine());
+
+            if (n1 + n2 > n3 && n1 + n3 > n2 && n2 + n3 > n1)
+                Console.WriteLine("this is a triangle");
+            else
+                Console.WriteLine("this is not a triangle");
+ 
+
+
+
+
+
+
+
+
 
 
 
@@ -314,22 +335,3 @@ int  x1, x2, y1, y2;
             y2 = int.Parse(Console.ReadLine());
             double distance = Math.Sqrt(Math.Pow(x2 - x1, 2) + Math.Pow(y2 - y1, 2));
             Console.WriteLine("Distance: " + distance);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
