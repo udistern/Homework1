@@ -291,9 +291,17 @@ Console.WriteLine("enter first number");
                 Console.WriteLine("this is a triangle");
             else
                 Console.WriteLine("this is not a triangle");
+
  
 
+ Console.WriteLine("enter your age: ");
+            int n1 = int.Parse(Console.ReadLine());
 
+            if(n1 > 0 && n1 < 120)
+                Console.WriteLine("diidy and drake will oil you up :)");
+
+            else
+                Console.WriteLine("diddy will not diddle you");
 
 
 
