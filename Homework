@@ -345,6 +345,16 @@ Console.WriteLine("enter first number");
 
 
 
+            Console.WriteLine("how many hours did you worked at golda?");
+            int h = int.Parse(Console.ReadLine());
+
+            if (h <= 40)
+                Console.WriteLine("you earned: " + h*12);
+            if (h > 40)
+                Console.WriteLine("you earned: " + (12*40 + (h - 40)*15));
+
+
+
 
 
 
