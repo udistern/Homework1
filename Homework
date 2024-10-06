@@ -355,7 +355,19 @@ Console.WriteLine("enter first number");
 
 
 
+int hours;
+            Console.WriteLine("you worked:"  );
+            hours = int.Parse(Console.ReadLine());
+            if (hours<=8)
+            Console.WriteLine("you earned:  "+ (hours* 30));
+            if (hours <= 11)
+                Console.WriteLine("you earned: " + (8 * 30 + (hours - 8) * 30 * 1.25));
 
+            else
+            {
+                if (hours>=12)
+                Console.WriteLine("you earned: " + (8 * 30 + (hours - 8) * 30 * 1.5 + " you earned a day of :) "));
+            }             
 
 
 
