@@ -318,7 +318,24 @@ int num1, num2, num3;
             }
 
 
+int num1, num2;
+            Console.WriteLine("enter first number:");
+            num1 = int.Parse(Console.ReadLine());
+            Console.WriteLine("enter second number:");
+            num2 = int.Parse(Console.ReadLine());
+            int difference = num1 - num2;
+            if (num1 % 2 == 0 && num2 % 2 == 0)
+                Console.WriteLine("both are even");
+            if (num1 % 2 == 0 || num2 % 2 == 0)
+                Console.WriteLine("only one number is even");
+            else
+            {
+                Console.WriteLine("none of the nubers are even");
 
+            }
+
+            int sum = num1 + num2;
+            Console.WriteLine("the sum is: " + sum);
 
 
 
