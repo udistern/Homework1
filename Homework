@@ -338,7 +338,27 @@ int num1, num2;
             Console.WriteLine("the sum is: " + sum);
 
 
+int x, y, z;
+            Console.WriteLine("enter number x:");
+            x = int .Parse(Console.ReadLine());
+            Console.WriteLine("enter number y:");
+            y = int.Parse(Console.ReadLine());
+            Console.WriteLine("enter number z:");
+            z = int.Parse(Console.ReadLine());
+            if (y >= x && y <= z)
+            {
+                int average = (x + z) / 2;
+                int difference = y - average;
+                Console.WriteLine("the difference between y and the average of x and z is:" + difference);
+            }
+            else
+            {
+                if (x != y && y != z && x != z)
+                    Console.WriteLine("the numbers ar4e different.");
+                int smallest = Math.Min(x, Math.Min(y, z));
+                Console.WriteLine("the smallest number is " + smallest);
 
+            }
 
 
 
