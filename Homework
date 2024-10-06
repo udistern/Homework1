@@ -256,7 +256,19 @@ int a, b;
                     Console.WriteLine("there is no lower number");
             }
 
-
+ int a, b;
+            Console.WriteLine("enter number a:");
+            a = int.Parse(Console.ReadLine());
+            Console.WriteLine("enter number b:");
+            b = int.Parse(Console.ReadLine());
+            if (a==b)
+                Console.WriteLine("they are the same number");
+            if (a > b)
+                Console.WriteLine(" you got:" + (a + 1, b + 1));
+            else
+            {
+                if(b>a)
+                    Console.WriteLine(" you got:" + (a + 1, b + 1));
 
 
 
