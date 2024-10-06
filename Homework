@@ -241,6 +241,21 @@ else if (n1 % 7 = 7)
 Console.WriteLine("dont divide by 7");
 
 
+int a, b;
+            Console.WriteLine("enter number a:");
+            a = int.Parse(Console.ReadLine());
+            Console.WriteLine("enter number b:");
+            b = int.Parse(Console.ReadLine());
+            if (a>b)
+                Console.WriteLine("b is the lower nummber");
+            if (b > a)
+                Console.WriteLine("a is the lower nummber");
+            else
+            {
+                if (a == b)
+                    Console.WriteLine("there is no lower number");
+            }
+
 
 
 
