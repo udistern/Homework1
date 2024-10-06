@@ -385,6 +385,20 @@ int hours;
             }             
 
 
+Console.WriteLine("Enter students number.");
+            int students = int.Parse(Console.ReadLine());
+            Console.WriteLine("How many seats are there?");
+            int seats = int.Parse(Console.ReadLine());
+
+            int ships;
+            if (students % seats == 0)
+                ships = students / seats;
+            else
+                ships = students / seats + 1;
+
+            Console.WriteLine("The minimal amount of ships needed is:" + ships);
+
+
 
 
 
