@@ -291,7 +291,15 @@ int num, n1, n2, n3;
 
 
 
-
+ int old, work;
+            Console.WriteLine("enter your age:");
+            old = int.Parse(Console.ReadLine());
+            Console.WriteLine("enter your years of experiance:");
+            work = int.Parse(Console.ReadLine());
+            if(work>=3 & old>=35)
+                Console.WriteLine("Call us :)");
+            if (work  <=2 & old <= 34)
+                Console.WriteLine("go find another job:(");
 
 
 
