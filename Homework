@@ -270,7 +270,15 @@ int a, b;
                 if(b>a)
                     Console.WriteLine(" you got:" + (a + 1, b + 1));
 
+ int kids;
+            Console.WriteLine("Enter amount of kids in grade: ");
+            kids = int.Parse(Console.ReadLine());
+            int buses = kids / 40;
+            if (kids % 40 != 0)
+                buses++;
 
+
+            Console.WriteLine("the amout of buses needed is: " + buses);
 
 
 
