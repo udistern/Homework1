@@ -280,7 +280,14 @@ int a, b;
 
             Console.WriteLine("the amout of buses needed is: " + buses);
 
-
+int num, n1, n2, n3;
+            Console.WriteLine("enter a three digit number:");
+            num = int.Parse(Console.ReadLine());
+            n1 = num / 100;
+            n2 = (num / 10) % 10;
+            n3 = num % 10;
+            if (n1==n3)
+                Console.WriteLine("the number is a palindromic number");
 
 
 
