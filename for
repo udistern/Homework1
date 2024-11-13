@@ -36,6 +36,21 @@ for (int i =1; i <=50; i++)
 
 
 
+for (int j = 1; j <= 25; j++)
+            {
 
+            
+            for (int i =1; i <=500; i++)
+            {
+                Console.WriteLine("enter salary");
+                int salary = int.Parse(Console.ReadLine());
+                Console.WriteLine("enter number of hours worked ");
+                int hours= int.Parse(Console.ReadLine());
+                Console.WriteLine("worker number" + i );
+                int avg  = (hours * salary) *25;
+                Console.WriteLine(avg);
+            }
+
+            }
 
             
